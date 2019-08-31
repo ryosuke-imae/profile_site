@@ -1,5 +1,5 @@
 body {
-  background-color: #white;
+  background-color: white;
 }
 
 .wrapper {
@@ -18,7 +18,7 @@ header h1 {
 }
 
 .mainContent {
-  background-color:purple;
+  background-color: purple;
   display: flex;
   padding: 4vh 6vw;
 }
@@ -33,7 +33,7 @@ header h1 {
 
 .pictureArea {
   position: relative;
-  background-image: url(../img/shirotsu.jpg);
+  background-image: url(../img/shirotsu.JPG);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 300px;
@@ -53,7 +53,7 @@ header h1 {
 }
 
 .aboutContent {
-  background-color:#white;
+  background-color: #white;
   color: #607d8b;
   padding: 20px 10px 20px;
   font-size: 16px;
