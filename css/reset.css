@@ -98,13 +98,12 @@ body {
 }
 
 a {
-  color: #324fe1;
+  color: #333;
   text-decoration: none;
 }
 
-a:active {
-  text-decoration: underline;
-  color: #3399ff;
+a:hover {
+  opacity: 0.6;
 }
 
 select {
