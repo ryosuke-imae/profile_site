@@ -32,27 +32,28 @@ header h1 {
 
 .pictureArea {
   position: relative;
-  background-image: url(../img/img.png);
+  background-image: url(../img/yamakawa.JPG);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 300px;
 }
 
 .pictureArea h2 {
-  color: #607d8b;
+  color: #fff;
   position: absolute;
-  top: 50%;
+  bottom: 4%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 24px;
 }
 
 .pictureArea h2 div {
-  font-size: 12px;
+  font-size: 24px;
 }
 
 .aboutContent {
-  color: #607d8b;
+  background-color:#008080;
+  color:#fff;
   padding: 20px 10px 20px;
   font-size: 16px;
 }

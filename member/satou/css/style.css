@@ -1,5 +1,5 @@
 body {
-  background-color: #607d8b;
+  background-color: #afeeee;
 }
 
 .wrapper {
@@ -9,12 +9,13 @@ body {
 header {
   height: 120px;
   line-height: 120px;
-  background: #718a96;
+  background: #fffacd;
   padding-right: 80px;
 }
 
 header h1 {
-  text-align: right;
+  text-align: center;
+  color: #ff69b4;
 }
 
 .mainContent {
@@ -27,19 +28,19 @@ header h1 {
   width: 24vw;
   overflow: hidden;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
-  background-color: #fff;
+  background-color: #000;
 }
 
 .pictureArea {
   position: relative;
-  background-image: url(../img/img.png);
+  background-image: url(../img/satou.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 300px;
 }
 
 .pictureArea h2 {
-  color: #607d8b;
+  color: #ff6347;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,7 +53,9 @@ header h1 {
 }
 
 .aboutContent {
-  color: #607d8b;
+
+background-color: #afeeee;  
+color: #000;
   padding: 20px 10px 20px;
   font-size: 16px;
 }
@@ -72,7 +75,7 @@ header h1 {
 
 .description {
   width: 60vw;
-  color: #607d8b;
+  color: #00008b;
   background: #fff;
   padding: 30px;
   border-radius: 4px;
@@ -92,7 +95,7 @@ header h1 {
 .description dl div:after {
   content: "";
   display: block;
-  background: #ccc;
+  background: #afeeee;
   height: 2px;
   width: 100%;
   position: absolute;
@@ -101,7 +104,7 @@ header h1 {
 }
 
 .description dl dt {
-  background: #ccc;
+  background: #afeeee;
   font-size: 20px;
   font-weight: bold;
   width: 30%;
@@ -114,6 +117,7 @@ header h1 {
 .description dl dd {
   padding: 12px 8px;
   width: 70%;
+  color: #000;
 }
 @media screen and (min-width: 480px) {
   .profContent {

@@ -1,5 +1,5 @@
 body {
-  background-color: #607d8b;
+  background-color: #d3d9db;
 }
 
 .wrapper {
@@ -9,7 +9,7 @@ body {
 header {
   height: 120px;
   line-height: 120px;
-  background: #718a96;
+  background: #3a3766;
   padding-right: 80px;
 }
 
@@ -32,14 +32,14 @@ header h1 {
 
 .pictureArea {
   position: relative;
-  background-image: url(../img/img.png);
+  background-image: url(../img/komoriya.JPG);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 300px;
 }
 
 .pictureArea h2 {
-  color: #607d8b;
+  color: #9089f0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,7 +52,8 @@ header h1 {
 }
 
 .aboutContent {
-  color: #607d8b;
+  background-color: #9089f0;
+  color: #e1f8f2;
   padding: 20px 10px 20px;
   font-size: 16px;
 }
@@ -72,7 +73,7 @@ header h1 {
 
 .description {
   width: 60vw;
-  color: #607d8b;
+  color: #9089f0;
   background: #fff;
   padding: 30px;
   border-radius: 4px;
@@ -92,7 +93,7 @@ header h1 {
 .description dl div:after {
   content: "";
   display: block;
-  background: #ccc;
+  background: #ced6f8;
   height: 2px;
   width: 100%;
   position: absolute;
@@ -101,7 +102,7 @@ header h1 {
 }
 
 .description dl dt {
-  background: #ccc;
+  background: #d3d9db;
   font-size: 20px;
   font-weight: bold;
   width: 30%;

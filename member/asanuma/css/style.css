@@ -32,14 +32,14 @@ header h1 {
 
 .pictureArea {
   position: relative;
-  background-image: url(../img/img.png);
+  background-image: url(../img/asanuma.JPG);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 300px;
 }
 
 .pictureArea h2 {
-  color: #607d8b;
+  color:#ff8c00;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,7 +52,8 @@ header h1 {
 }
 
 .aboutContent {
-  color: #607d8b;
+  background-color: #ffdead;
+  color: #000000;
   padding: 20px 10px 20px;
   font-size: 16px;
 }
@@ -92,7 +93,7 @@ header h1 {
 .description dl div:after {
   content: "";
   display: block;
-  background: #ccc;
+  background: #ffdead;
   height: 2px;
   width: 100%;
   position: absolute;
@@ -101,7 +102,8 @@ header h1 {
 }
 
 .description dl dt {
-  background: #ccc;
+  color: #000000;
+  background: #ffdead;
   font-size: 20px;
   font-weight: bold;
   width: 30%;
@@ -112,6 +114,7 @@ header h1 {
 }
 
 .description dl dd {
+  color: #000000;
   padding: 12px 8px;
   width: 70%;
 }

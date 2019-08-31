@@ -1,5 +1,5 @@
 body {
-  background-color: #607d8b;
+  background-color: #808080;
 }
 
 .wrapper {
@@ -9,7 +9,7 @@ body {
 header {
   height: 120px;
   line-height: 120px;
-  background: #718a96;
+  background: #696969;
   padding-right: 80px;
 }
 
@@ -27,21 +27,21 @@ header h1 {
   width: 24vw;
   overflow: hidden;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
-  background-color: #fff;
+  background-color: #696969;
 }
 
 .pictureArea {
   position: relative;
-  background-image: url(../img/img.png);
+  background-image: url(../img/nishimura.JPG);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 300px;
 }
 
 .pictureArea h2 {
-  color: #607d8b;
+  color: #000000;
   position: absolute;
-  top: 50%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 24px;
@@ -52,7 +52,7 @@ header h1 {
 }
 
 .aboutContent {
-  color: #607d8b;
+  color: #000000;
   padding: 20px 10px 20px;
   font-size: 16px;
 }
@@ -60,7 +60,7 @@ header h1 {
 .aboutContent div {
   display: flex;
   padding: 4px 36px 4px;
-  border-bottom: solid 2px #ccc;
+  border-bottom: solid 2px #808080;
   margin-bottom: 18px;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -72,8 +72,8 @@ header h1 {
 
 .description {
   width: 60vw;
-  color: #607d8b;
-  background: #fff;
+  color: #000000;
+  background: #696969;
   padding: 30px;
   border-radius: 4px;
   margin-left: 4vw;
@@ -92,7 +92,7 @@ header h1 {
 .description dl div:after {
   content: "";
   display: block;
-  background: #ccc;
+  background: #808080;
   height: 2px;
   width: 100%;
   position: absolute;
@@ -101,7 +101,7 @@ header h1 {
 }
 
 .description dl dt {
-  background: #ccc;
+  background: #a9a9a9;
   font-size: 20px;
   font-weight: bold;
   width: 30%;

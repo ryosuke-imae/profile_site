@@ -1,5 +1,5 @@
 body {
-  background-color: #607d8b;
+  background-color: #D7EEFF;
 }
 
 .wrapper {
@@ -9,7 +9,7 @@ body {
 header {
   height: 120px;
   line-height: 120px;
-  background: #718a96;
+  background: #8EB8FF;
   padding-right: 80px;
 }
 
@@ -32,14 +32,14 @@ header h1 {
 
 .pictureArea {
   position: relative;
-  background-image: url(../img/img.png);
+  background-image: url(../img/kodama.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 300px;
 }
 
 .pictureArea h2 {
-  color: #607d8b;
+  color: #A7F1FF;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,7 +52,8 @@ header h1 {
 }
 
 .aboutContent {
-  color: #607d8b;
+  background-color: #F4A460;
+  color: #555555;
   padding: 20px 10px 20px;
   font-size: 16px;
 }
@@ -72,8 +73,8 @@ header h1 {
 
 .description {
   width: 60vw;
-  color: #607d8b;
-  background: #fff;
+  color: #000000;
+  background: #ffffff;
   padding: 30px;
   border-radius: 4px;
   margin-left: 4vw;
@@ -92,7 +93,7 @@ header h1 {
 .description dl div:after {
   content: "";
   display: block;
-  background: #ccc;
+  background: #FFC7AF;
   height: 2px;
   width: 100%;
   position: absolute;
